@@ -18,5 +18,13 @@ export default {
     .catch(err => {
       error ? error(err) : console.log(err)
     }),
+  get: (hostType, url, data, error, option) => axios.get(hostFilter(hostType) + url, data, option)
+    .then(response => {
+      // console.log(response.data)
+      return response.data
+    })
+    .catch(err => {
+      error ? error(err) : console.log(err)
+    }),
   url (hostType, path) { return hostFilter(hostType) + path }
 }
