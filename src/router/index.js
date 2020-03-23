@@ -1,7 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import NewContact from '@/components/NewContact'
 
 Vue.use(Router)
 
@@ -10,11 +8,11 @@ export default new Router({
     {
       path: '/',
       name: 'HelloWorld',
-      component: HelloWorld
+      component: () => ('@/components/HelloWorld')
     },
     {
       path: '/newcontact',
-      component: NewContact
+      component: () => ('@/components/NewContact')
     }
   ]
 })
