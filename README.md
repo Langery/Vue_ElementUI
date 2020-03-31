@@ -28,3 +28,7 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+Link:
+
+1. [element-ui表格的表头使用类似下拉框样式](https://blog.csdn.net/qq_42376226/article/details/88144210)

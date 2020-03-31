@@ -8,11 +8,12 @@ export default new Router({
     {
       path: '/',
       name: 'HelloWorld',
-      component: () => ('@/components/HelloWorld')
+      // component: () => ('@/components/HelloWorld')
+      component: resolve => require(['@/components/HelloWorld'], resolve)
     },
     {
       path: '/newcontact',
-      component: () => ('@/components/NewContact')
+      component: resolve => require(['@/components/NewContact'], resolve)
     }
   ]
 })
