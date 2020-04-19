@@ -32,3 +32,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 Link:
 
 1. [element-ui表格的表头使用类似下拉框样式](https://blog.csdn.net/qq_42376226/article/details/88144210)
+2. [element UI table 实现合并单元格](https://blog.csdn.net/qq_16855093/article/details/82584734)
