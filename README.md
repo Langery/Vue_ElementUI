@@ -33,3 +33,4 @@ Link:
 
 1. [element-ui表格的表头使用类似下拉框样式](https://blog.csdn.net/qq_42376226/article/details/88144210)
 2. [element UI table 实现合并单元格](https://blog.csdn.net/qq_16855093/article/details/82584734)
+3. [【专题】（vue+element-ui）动态设置tabel列的显示与隐藏](https://blog.csdn.net/lu_kuankuan/article/details/82222372)
